@@ -1,4 +1,5 @@
 # scaip
+> _Why do you use SCAIP?_
 Supreme Commander Artificially Intelligent Player  
 
 Requested and recieved support from [Softles](https://github.com/HardlySoftly) community member. He offered some useful project links:
