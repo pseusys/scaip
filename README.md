@@ -1,2 +1,2 @@
 # scaip
-Supreme Commander Artificially Intelligent Player
+Supreme Commander Artificial Intelligent Player
