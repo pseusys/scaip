@@ -84,7 +84,7 @@ async def _run_game(extract_player, extract_file, replay) -> int:
         '/nosound',
         '/exitongameover',
         # '/debug',  # TODO: remove
-        '/log', "C:\\ProgramData\\FAForever\\replays\\17270238-SusSusAmogus.logfile",
+        '/log', "C:\\ProgramData\\FAForever\\replays\\17301304-SusSusAmogus.logfile",
         '/replay', replay,
         '/init', _get_faforever_dir() / 'bin' / _INIT_NAME,
         '/extract_player', extract_player,
@@ -115,4 +115,4 @@ async def extract(interest_player: str, replay_files: [Path], destination: Path)
 
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(extract("me", [Path("C:\\ProgramData\\FAForever\\replays\\17270238-SusSusAmogus.fafreplay")], Path("C:\\ProgramData\\FAForever\\replays\\17270238-SusSusAmogus.extractedreplay")))
+    loop.run_until_complete(extract("me", [Path("C:\\ProgramData\\FAForever\\replays\\17301304-SusSusAmogus.fafreplay")], Path("C:\\ProgramData\\FAForever\\replays\\17301304-SusSusAmogus.extractedreplay")))

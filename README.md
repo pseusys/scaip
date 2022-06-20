@@ -38,3 +38,5 @@ E. g. if we are searching for 1v1 replays, this script is responsible for checki
 In terms of this app future machine learning process, the script prepares **raw replay dataset**.  
 - `init_extractor.lua` - a super simple script for hooks loading during replay playing.  
 - `extractorhooks/` - folder containing game hooks for feature extraction.
+
+https://wiki.faforever.com/images/modding/sim-ui.png
