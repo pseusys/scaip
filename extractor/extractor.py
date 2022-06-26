@@ -8,8 +8,7 @@ from shutil import copyfile
 from tempfile import NamedTemporaryFile
 from zipfile import ZipFile
 
-# from fafreplay import extract_scfa
-from temp_support import extract_scfa  # TODO: remove
+from fafreplay import extract_scfa
 
 
 _ARCHIVE_NAME = 'extractor.ext'
@@ -83,8 +82,7 @@ async def _run_game(extract_player, extract_file, replay) -> int:
         '/nomusic',
         '/nosound',
         '/exitongameover',
-        # '/debug',  # TODO: remove
-        '/log', "C:\\ProgramData\\FAForever\\replays\\17301304-SusSusAmogus.logfile",
+        '/log', "C:\\ProgramData\\FAForever\\replays\\17362040-SusSusAmogus.logfile",
         '/replay', replay,
         '/init', _get_faforever_dir() / 'bin' / _INIT_NAME,
         '/extract_player', extract_player,
@@ -115,4 +113,4 @@ async def extract(interest_player: str, replay_files: [Path], destination: Path)
 
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(extract("me", [Path("C:\\ProgramData\\FAForever\\replays\\17301304-SusSusAmogus.fafreplay")], Path("C:\\ProgramData\\FAForever\\replays\\17301304-SusSusAmogus.extractedreplay")))
+    loop.run_until_complete(extract("me", [Path("C:\\ProgramData\\FAForever\\replays\\17361676-SusSusAmogus.fafreplay")], Path("C:\\ProgramData\\FAForever\\replays\\17361676-SusSusAmogus.extractedreplay")))

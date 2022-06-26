@@ -6,7 +6,7 @@ verify_ssl = true
 [packages]
 pygetwindow = "~=0.0.9"
 psutil = "~=5.9.1"
-faf-replay-parser = {version = "~=0.5.2", extras = ["faf"]}
+faf-replay-parser = {version = "~=0.5.3", extras = ["faf"]}
 
 [requires]
 python_version = "3.9"
