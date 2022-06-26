@@ -9,7 +9,7 @@ Thanks a lot to [Softles](https://github.com/HardlySoftly) community member. He 
 Project consists of three parts:
 1. **player** - is a game modification designed for working with neural network model command prediction results and is, basically, a game AI mod.
    It contains scripts for both local (i.e., debug) installation and global mods vault submission.
-2. **extractor** - is a game modification designed for feature extraction from replays simulation. Inspired greatly (and in fact extends from) this [AI testing auto-run tool](https://github.com/HardlySoftly/FAF-AI-Autorun).  
+2. **extractor** - is a game modification designed for feature extraction from replays simulation. Inspired greatly (and in fact extends from) by this [AI testing auto-run tool](https://github.com/HardlySoftly/FAF-AI-Autorun).  
    It contains scripts for auto-installing for replay simulation as well as multiple simulation runs (for multiple replays) and data extraction.
 3. ...
 
