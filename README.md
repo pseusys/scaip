@@ -6,12 +6,12 @@ Thanks a lot to [Softles](https://github.com/HardlySoftly) community member. He 
 1. [Command-based AI](https://github.com/HardlySoftly/DilliDalli) (couldn't understand actually how it works, however)
 2. [Game auto-run tool](https://github.com/HardlySoftly/FAF-AI-Autorun)
 
-Project consists of three parts:
+Project consists of these parts:
 1. **player** - is a game modification designed for working with neural network model command prediction results and is, basically, a game AI mod.
    It contains scripts for both local (i.e., debug) installation and global mods vault submission.
-2. **extractor** - is a game modification designed for feature extraction from replays simulation. Inspired greatly (and in fact extends from) this [AI testing auto-run tool](https://github.com/HardlySoftly/FAF-AI-Autorun).  
+2. **extractor** - is a game modification designed for feature extraction from replays simulation. Inspired greatly (and in fact extends from) by this [AI testing auto-run tool](https://github.com/HardlySoftly/FAF-AI-Autorun).  
    It contains scripts for auto-installing for replay simulation as well as multiple simulation runs (for multiple replays) and data extraction.
-3. ...
+3. **game_parameters** - contains parameters of current match accessable by Lua wrappers of the original C++ game code. We aim to examine which of them may be useful for the developed bot. We encourage FAF community to add documentation for the parameters in [this google table](https://docs.google.com/spreadsheets/d/13dAGsT1mB-sZESmZwnvWfiqJ_xQD99ebex_PN8uxI-k/edit?usp=sharing).
 
 ### Player
 
